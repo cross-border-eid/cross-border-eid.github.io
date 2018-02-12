@@ -11,11 +11,11 @@
     &lt;script&gt;
       var eid = ...;
 
-      var authentication_cert = eid.get_authentication_certificate();
-      var authentication_token = eid.sign_with_authentication_key(nonce_from_server);
+      var authentication_cert = await eid.get_authentication_certificate();
+      var authentication_token = await eid.sign_with_authentication_key(nonce_from_server);
 
-      var signing_cert = eid.get_signing_certificate();
-      var signature = eid.sign_with_signing_key(document_hash_from_server);
+      var signing_cert = await eid.get_signing_certificate();
+      var signature = await eid.sign_with_signing_key(document_hash_from_server);
 
     &lt;/script&gt;
         </code>
