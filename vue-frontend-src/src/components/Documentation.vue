@@ -5,6 +5,7 @@
         <h2>Overview</h2>
         <p>Describe components and architecture here.</p>
         <p><img src="@/assets/component-diagram.jpg" alt="Component diagram" style="width: 100%"/></p>
+        <p><img src="@/assets/authentication-sequence-diagram.png" alt="Component diagram" style="width: 100%"/></p>
         <h2>API</h2>
         <p>Describe API here.</p>
         <code style="width: 100%">
